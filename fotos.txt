@@ -1,0 +1,11 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ impuestos-gastos-claro (20 s) (tardó en salir de la carga)
+  ✓ impuestos-ingresos-claro (14 s)
+  ✓ impuestos-contactos-claro (10 s)
+  ✓ impuestos-modelo-claro (10 s)
+  ✓ impuestos-ajustes-claro (15 s)
+  ✓ impuestos-ingreso-claro (14 s)
+  ✓ impuestos-ingresos-oscuro (15 s)
+  ↻ impuestos-gastos-oscuro (se quedó en la pantalla de carga: otra vez)
+  ✓ impuestos-gastos-oscuro (38 s) (tardó en salir de la carga)
+Capturas: 8
