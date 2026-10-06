@@ -1,0 +1,10 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ reserva-claro (13 s)
+  ✓ calendario-claro (13 s)
+  ✓ reserva-oscuro (13 s)
+  ✓ calendario-oscuro (10 s)
+  ✓ reserva-abajo-claro (21 s)
+  ✓ reserva-final-claro (18 s)
+  ✓ calendario-final-claro (16 s)
+  ✓ reserva-letra-maxima (15 s)
+Capturas: 8
