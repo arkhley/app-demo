@@ -1,0 +1,16 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ variante-control-claro (14 s)
+  ✓ variante-control-oscuro (13 s)
+  ✓ variante-control-oculta-claro (15 s)
+  ✓ variante-control-letra-maxima (14 s)
+  ✓ variante-barra-claro (12 s)
+  ✓ variante-barra-oscuro (13 s)
+  ✓ variante-barra-oculta-claro (12 s)
+  ✓ variante-barra-letra-maxima (14 s)
+  ✓ variante-lanzador-claro (14 s)
+  ✓ variante-lanzador-oscuro (13 s)
+  ✓ variante-lanzador-oculta-claro (13 s)
+  ✓ variante-lanzador-letra-maxima (13 s)
+  ✓ variante-hoja-adelanto-claro (15 s)
+  ✓ variante-hoja-comprobar-oscuro (14 s)
+Capturas: 14
