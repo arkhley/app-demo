@@ -1,0 +1,4 @@
+inicio 1791329117
+xcodegen 1791329124
+simulador 1791329223
+capturas 1791329621

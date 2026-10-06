@@ -1,0 +1,6 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ bloqueo-claro (14 s)
+  ✓ entrar-claro (19 s)
+  ✓ bloqueo-oscuro (13 s)
+  ✓ entrar-oscuro (10 s)
+Capturas: 4
