@@ -1,0 +1,13 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ impuestos-claro (18 s)
+  ✓ impuestos-cuadra-claro (16 s)
+  ✓ impuestos-oscuro (17 s)
+  ✓ impuestos-cuadra-oscuro (15 s)
+  ✓ impuestos-porque-claro (20 s)
+  ✓ impuestos-nocuadra-claro (15 s)
+  ✓ impuestos-2T-claro (17 s)
+  ✓ impuestos-4T-claro (17 s)
+  ✓ impuestos-abajo-claro (17 s)
+  ✓ impuestos-final-claro (15 s)
+  ✓ impuestos-letra-maxima (16 s)
+Capturas: 11
