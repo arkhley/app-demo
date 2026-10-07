@@ -1,0 +1,13 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ widget-descansar-claro (14 s)
+  ✓ widget-trabajar-claro (12 s)
+  ✓ widget-riesgo-claro (11 s)
+  ✓ widget-directo-claro (11 s)
+  ✓ widget-cubierto-claro (13 s)
+  ✓ widget-hecho-claro (12 s)
+  ✓ widget-hechoEmitir-claro (12 s)
+  ✓ widget-directo-oscuro (13 s)
+  ✓ widget-descansar-oscuro (12 s)
+  ✓ widget-oculto-claro (12 s)
+  ✓ widget-letra-maxima (12 s)
+Capturas: 11
