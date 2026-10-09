@@ -1,0 +1,13 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ sala-claro (15 s)
+  ✓ sala-directo-claro (17 s)
+  ✓ sala-oscuro (15 s)
+  ✓ sala-directo-oscuro (18 s)
+  ✓ sala-repeticion-claro (13 s)
+  ✓ sala-abajo-claro (14 s)
+  ✓ sala-final-claro (15 s)
+  ✓ sala-directo-final-claro (18 s)
+  ✓ sala-antigua-claro (14 s)
+  ✓ sala-chat-claro (18 s)
+  ✓ sala-letra-maxima (15 s)
+Capturas: 11
