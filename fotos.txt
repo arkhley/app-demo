@@ -1,0 +1,14 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ detalle-claro (14 s)
+  ✓ historial-claro (13 s)
+  ✓ encargos-claro (13 s)
+  ✓ detalle-oscuro (14 s)
+  ✓ historial-oscuro (13 s)
+  ✓ encargos-oscuro (14 s)
+  ✓ detalle-abajo-claro (13 s)
+  ✓ detalle-final-claro (13 s)
+  ✓ detalle-plataforma2-claro (14 s)
+  ✓ historial-plataforma1-claro (13 s)
+  ✓ historial-abajo-claro (35 s) (tardó en salir de la carga)
+  ✓ encargos-abajo-claro (47 s) (tardó en salir de la carga)
+Capturas: 12
