@@ -1,0 +1,10 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ cobros-claro (19 s)
+  ✓ cobros-oscuro (14 s)
+  ✓ cobros-adelanto-oscuro (12 s)
+  ✓ cobros-elegido-claro (15 s)
+  ✓ cobros-apartar-claro (13 s)
+  ✓ cobros-abajo-claro (13 s)
+  ✓ cobros-final-claro (24 s)
+  ✓ cobros-letra-maxima (18 s)
+Capturas: 8
