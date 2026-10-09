@@ -1,0 +1,8 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ llegada-0.021 (16 s)
+  ✓ llegada-0.141 (15 s)
+  ✓ llegada-0.481 (14 s)
+  ✓ llegada-final (14 s)
+  ✓ llegada-0.141-oscuro (14 s)
+  ✓ llegada.mp4 (13083213 bytes)
+Capturas: 6
