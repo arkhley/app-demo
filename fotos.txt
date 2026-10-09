@@ -1,0 +1,11 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ agenda-claro (14 s)
+  ✓ agenda-llena-claro (13 s)
+  ✓ agenda-aldia-claro (13 s)
+  ✓ agenda-oscuro (13 s)
+  ✓ agenda-llena-oscuro (12 s)
+  ✓ agenda-aldia-oscuro (12 s)
+  ✓ agenda-llena-abajo-claro (13 s)
+  ✓ agenda-nueva-claro (27 s)
+  ✓ agenda-letra-maxima (13 s)
+Capturas: 9
