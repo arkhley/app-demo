@@ -1,0 +1,10 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ cerrojo-cara (16 s)
+  ✓ cerrojo-teclado-claro (14 s)
+  ✓ cerrojo-teclado-regular (13 s)
+  ✓ cerrojo-sinfondo-claro (16 s)
+  ✓ cerrojo-nodisponible (14 s)
+  ✓ cerrojo-teclado-oscuro (14 s)
+  ✓ cerrojo-sinfondo-oscuro (14 s)
+  ✓ cerrojo-aparece.mp4 (3329070 bytes)
+Capturas: 8
