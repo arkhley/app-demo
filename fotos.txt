@@ -1,0 +1,14 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ cuenta-claro (20 s)
+  ✓ cuenta-oscuro (15 s)
+  ✓ cuenta-info-claro (14 s)
+  ✓ cuenta-seguridad-claro (12 s)
+  ✓ cuenta-faceid-claro (14 s)
+  ✓ cuenta-claves-claro (15 s)
+  ✓ cuenta-avisos-claro (11 s)
+  ✓ cuenta-almacenamiento-claro (12 s)
+  ✓ cuenta-logs-claro (13 s)
+  ✓ cuenta-borrar-claro (14 s)
+  ✓ cuenta-logs-oscuro (11 s)
+  ✓ cuenta-letra-maxima (48 s)
+Capturas: 12
