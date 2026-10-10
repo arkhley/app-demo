@@ -1,0 +1,16 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ repaso3-monedas.mp4 (22298032 bytes)
+  ✓ repaso3-estrellas.mp4 (4938405 bytes)
+  ✓ repaso3-panel-tesoro (13 s)
+  ✓ repaso3-nubes-oscuro (12 s)
+  ✓ repaso3-tex-cuero-oscuro (14 s)
+  ✓ repaso3-tex-escarcha-oscuro (14 s)
+  ✓ repaso3-nubes-claro (14 s)
+  ✓ repaso3-niebla-claro (12 s)
+  ✓ repaso3-panel-blanco (10 s)
+  ✓ repaso3-panel-mostaza (16 s)
+  ✓ repaso3-panel-soleado (13 s)
+  ✓ repaso3-galeria-lima (11 s)
+  ✓ repaso3-galeria-hoja-verano (14 s)
+  ✓ repaso3-tex-acuarela-claro (16 s)
+Capturas: 14
