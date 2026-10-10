@@ -1,0 +1,60 @@
+name: Capturas
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+concurrency:
+  group: capturas
+  cancel-in-progress: true
+jobs:
+  capturas:
+    strategy:
+      fail-fast: false
+      matrix:
+        grupo: [repaso9]
+    runs-on: xcode-27
+    timeout-minutes: 45
+    env:
+      HOMEBREW_NO_AUTO_UPDATE: "1"
+      HOMEBREW_NO_INSTALL_CLEANUP: "1"
+    steps:
+      - uses: actions/checkout@v5
+      - name: Versiones
+        run: |
+          mkdir -p r
+          echo "inicio $(date +%s)" > r/tiempos.txt
+          { sw_vers; xcodebuild -version; xcrun simctl list runtimes; } | tee r/versiones.txt
+      - name: Proyecto
+        run: |
+          brew install xcodegen && xcodegen generate --spec project.yml
+          echo "xcodegen $(date +%s)" >> r/tiempos.txt
+      - name: App (simulador)
+        run: |
+          estado=0
+          xcodebuild -project Demo.xcodeproj -scheme Demo -configuration Maqueta \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath dd \
+            build > r/compilar-simulador.txt 2>&1 || estado=$?
+          grep -E "error:|BUILD (SUCCEEDED|FAILED)" r/compilar-simulador.txt | sort -u | tail -40 || true
+          echo "simulador $(date +%s)" >> r/tiempos.txt
+          exit "$estado"
+      - name: Capturas
+        env:
+          GRUPOS: ${{ matrix.grupo }}
+        run: |
+          bash ci/escenas.sh dd/Build/Products/Maqueta-iphonesimulator/Demo.app r/capturas | tee r/fotos.txt
+          echo "capturas $(date +%s)" >> r/tiempos.txt
+      - name: Resultados
+        if: always()
+        run: |
+          cd r
+          git init -q -b "resultados-${{ matrix.grupo }}"
+          git config user.name "demo"
+          git config user.email "demo@example.com"
+          git add -A
+          git commit -qm "resultados de ${GITHUB_SHA} (${{ job.status }})"
+          for i in 1 2 3 4 5; do
+            git push -qf "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" "resultados-${{ matrix.grupo }}" && exit 0
+            sleep $((i * 15))
+          done
+          exit 1

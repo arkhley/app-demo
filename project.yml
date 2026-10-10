@@ -1,0 +1,45 @@
+name: Demo
+options:
+  # En español (6-oct-2026): con el inglés de serie, lo que pone iOS dentro de la app
+  # («Edit», «Done», el buscador) salía en inglés aunque el iPhone esté en español.
+  developmentLanguage: es
+  deploymentTarget:
+    iOS: "26.0"
+configs:
+  Debug: debug
+  Release: release
+  Maqueta: debug
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    CODE_SIGNING_ALLOWED: "NO"
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGN_IDENTITY: ""
+targets:
+  Demo:
+    type: application
+    platform: iOS
+    sources:
+      - path: Demo
+    settings:
+      base:
+        PRODUCT_NAME: Demo
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.ingresos
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: "YES"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_KEY_CFBundleDisplayName: "Ingresos"
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+        INFOPLIST_KEY_NSFaceIDUsageDescription: "Para entrar sin escribir la contraseña."
+        INFOPLIST_KEY_NSMotionUsageDescription: "Para que el agua de la Reserva se incline con el móvil."
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Para elegir tu foto de perfil."
+      configs:
+        Maqueta:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "MAQUETA DEBUG"
+schemes:
+  Demo:
+    build:
+      targets:
+        Demo: all
