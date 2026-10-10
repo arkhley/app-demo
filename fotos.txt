@@ -1,0 +1,8 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ repaso5-capsula-hecho (15 s)
+  ✓ repaso5-capsula-hechoEmitir (14 s)
+  ✓ repaso5-capsula-descansar (18 s)
+  ✓ repaso5-capsula-directo (19 s)
+  ✓ repaso5-capsula-hecho-tesoro (13 s)
+  ✓ repaso5-monedas.mp4 (15193680 bytes)
+Capturas: 6
