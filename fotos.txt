@@ -1,0 +1,4 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ repaso9-monedas-oscuro.mp4 (25191389 bytes)
+  ✓ repaso9-monedas-claro.mp4 (29361426 bytes)
+Capturas: 2
