@@ -1,0 +1,8 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ temas3-inicio-verano-oscuro (17 s)
+  ✓ temas3-cobros-verano-oscuro (15 s)
+  ✓ temas3-agenda-verano-oscuro (16 s)
+  ✓ temas3-directo-atardecer-claro (15 s)
+  ✓ temas3-directo-foto-claro (14 s)
+  ✓ temas3-directo-cobalto-oscuro (13 s)
+Capturas: 6
