@@ -1,0 +1,4 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ repaso8-estrellas (15 s)
+  ✓ repaso8-estrellas.mp4 (7608643 bytes)
+Capturas: 2
