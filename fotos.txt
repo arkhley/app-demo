@@ -1,0 +1,12 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ repaso4-panel-blanco (17 s)
+  ✓ repaso4-panel-mostaza (13 s)
+  ✓ repaso4-panel-soleado (15 s)
+  ✓ repaso4-panel-lima (12 s)
+  ✓ repaso4-panel-otono (17 s)
+  ✓ repaso4-panel-cobalto-oscuro (15 s)
+  ✓ repaso4-panel-medianoche-oscuro (17 s)
+  ✓ repaso4-panel-verano-oscuro (16 s)
+  ✓ repaso4-monedas-quietas (16 s)
+  ✓ repaso4-monedas.mp4 (13778248 bytes)
+Capturas: 10
