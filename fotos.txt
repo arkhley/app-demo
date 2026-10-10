@@ -1,0 +1,5 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ salto-cuenta-plano.mp4 (3637374 bytes)
+  ✓ salto-cuenta-noche.mp4 (5989477 bytes)
+  ✓ salto-hoja-plano.mp4 (6823971 bytes)
+Capturas: 3
