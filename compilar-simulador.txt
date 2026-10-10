@@ -1,0 +1,1937 @@
+Command line invocation:
+    /Applications/Xcode_27.app/Contents/Developer/usr/bin/xcodebuild -project Demo.xcodeproj -scheme Demo -configuration Maqueta -sdk iphonesimulator -destination "generic/platform=iOS Simulator" -derivedDataPath dd build
+
+Build settings from command line:
+    SDKROOT = iphonesimulator27.0
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'Demo' in project 'Demo' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 943610d2f2788d3b87d52fd6c9753a28
+Build description path: /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/XCBuildData/943610d2f2788d3b87d52fd6c9753a28.xcbuilddata
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/CompilationCache.noindex
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/CompilationCache.noindex
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/Build/Products
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/Build/Products
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex
+
+ClangStatCache /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -o /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo-eaee17aee96df92022dd96a9efbd9d1c-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo-eaee17aee96df92022dd96a9efbd9d1c-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/PrecompiledHeaders
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/EagerLinkingTBDs/Maqueta-iphonesimulator
+    cd /Users/runner/work/app-demo/app-demo/Demo.xcodeproj
+    builtin-create-build-directory /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/EagerLinkingTBDs/Maqueta-iphonesimulator
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/empty-Demo.plist (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/empty-Demo.plist
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_const_extract_protocols.json (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftConstValuesFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.LinkFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-OutputFileMap.json (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_const_extract_protocols.json (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftConstValuesFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.LinkFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-OutputFileMap.json (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.hmap (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.hmap
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.DependencyStaticMetadataFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.DependencyMetadataFileList (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-non-framework-target-headers.hmap (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibPath-normal-x86_64.txt (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibPath-normal-arm64.txt (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibInstallName-normal-x86_64.txt (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibInstallName-normal-arm64.txt (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    write-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /bin/mkdir -p /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app
+
+Ld /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -install_name @rpath/Demo.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_dependency_info.dat -o /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+Ld /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -install_name @rpath/Demo.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_dependency_info.dat -o /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/__preview.dylib
+
+ProcessInfoPlistFile /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Info.plist /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/empty-Demo.plist (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-infoPlistUtility /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/empty-Demo.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Info.plist
+
+CreateUniversalBinary /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/__preview.dylib normal arm64\ x86_64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/__preview.dylib /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/__preview.dylib
+
+SwiftDriver Demo normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftDriver -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Demo -Onone @/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftFileList -DMAQUETA -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/app-demo/app-demo/dd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache -output-file-map /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/include -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-Swift.h -working-directory /Users/runner/work/app-demo/app-demo -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver Demo normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftDriver -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Demo -Onone @/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftFileList -DMAQUETA -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/app-demo/app-demo/dd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache -output-file-map /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/include -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-Swift.h -working-directory /Users/runner/work/app-demo/app-demo -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_AvailabilityInternal-CCK33PEP3X6HBZ4NRQ32IOBCQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdbool-44X4SCKY2PFP7DBL1L63GUVTA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/SwiftShims-AF42MBLBKUZP9O88DVGDR05T8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ActivityKit-8Z2XBZKB4292LILFAJEVZZG58.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/DeveloperToolsSupport-U50IR0OOM63TCTP6PY00OV4I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ActivityKit-EDY1ESYCGA6PGKAJW3FL9JLO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ptrcheck-C57J7286WE15VNGGL80CLOO93.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_float-AHG6VT7XWIHZFCVVW12TE5JG8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_float-EYSFEJPBGRZ9JEHZYKVLRZ4RD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/DeveloperToolsSupport-F3VS2XXWW9Y8GPQJRBO5YYTP6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ptrauth-C96S9565OGGUJBFTF1V10ICCT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-5MCOP3MG1T9K0O673ITQWX0FD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ptrcheck-639WRSUDLBT5O5ZX0FF9X20AB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-72TUP83MCLP6EGT2T6RTRY0L6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stddef-2J6JBJ1ENR7XJS66BFLSYR4I1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdbool-EYPH4D7EI5VHK27NNMB47283Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_DarwinFoundation1-1QRN5OCN7UH89VNQWIJF4BDXD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdarg-BRX3U58C4DT0W34MTN0HIAE7Z.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ptrauth-8TAPY2X1SKMUUJMOQ6N7YA0JT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/SwiftShims-2GC41Y54V968FOUH8VSLQ3HG9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ExtensionFoundation-CGDEM5JO7VYDHJZL4X2IVUBZU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_limits-634EQ8RP3NCDB01BMX26RDPS0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdarg-5IZQ1KKH4HOTDMD4KYPIDKPMH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_AvailabilityInternal-9ITKVWWMOYKM8QGG3E9YL00YP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stddef-9HFCHKI6KRNKCPAAFN806NYAH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_DarwinFoundation2-97DNK5OH2KGUD5Q3D2MMHGML8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_DarwinFoundation1-7TV0FL15M8CK8YS8V5AZXH9ID.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_DarwinFoundation2-BIGE1RI8CVQDB95CDMGTBJ4AX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_limits-34P2WL5F91YQGLPJB15RJ34WJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ExtensionFoundation-931NBHZQC721QIPVVDX2E82Z6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_tgmath-DX8VSRGYX8R29ACVERD50D2I8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/sys_types-1U5LVMRFPUHSBYAGK9M6TKXNO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/string_h-8NYFG263IO2VRF8BDTX80QPH5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/sys_types-6ZHJVN8ZNU3TQKTTU58F1X6C6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/string_h-9ID8L17EZ0354O6ZZITE3091A.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdint-51T0SCP4PMVU45MNUEO400JYA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_tgmath-5D2GOI3QYJIO9IAQX2F7PXZIO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdint-2GAIZDCVU10F55CMZVZV791B4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_DarwinFoundation3-987CKIABAVYAG8EN672XOHRTM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdatomic-4JWTNUIFM90153TD2LMAZZRP4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_intrinsics-5WJ7UBGSH4ZNBF49DK0WZK559.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_DarwinFoundation3-60BM2P210FFPC59KWZ3FP6P0X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_stdatomic-59MONZX5JHKKLXXVSFH0I2B8E.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_inttypes-D5YI00OJCNIUJK7PPJWYPZPN8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_inttypes-1WJ1XIKFAMTTGR7T7U0WCUME1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_Builtin_intrinsics-79MEUX0H03E1S6QWQ40XVMFN0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Darwin-6BX306N0W1VVQ8XLGK2OK4X47.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Darwin-8FQ2FYI8997UE2AWHOWNZNZ5V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/simd-EE08X0AMLL3H0N8XLCXXYKI69.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ObjectiveC-7UNV7RGJ54R0E7C731VG5GETD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/MachO-4GHFLGRBSVX0DONK6FALMH0ZY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Compression-7RGHZN8QOGJAWDOZ3JEAE2ODG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/os_object-7ANDB3DIKR0SPK8NMVF0DRY82.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/MachO-BNNN2KYF1HNCMAL3IXQ7YPI3U.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Compression-9BN85QTFE4SPABKXCA6KFKCC0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/os_workgroup-ATP1I1OAHWOEP8FWTE8RXC221.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ObjectiveC-A6P1RAYAUHTBJT6IX2GVCNJXQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/simd-6MW34GLZ2IV71MIJ2AD7S72EC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Dispatch-2BL614F35BYFYG1ZPIB3I98F.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/os_object-ASIYICBL2F4IY2PIVON5B0XSA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/XPC-8DF5R9VJT15SCHUUZF7AIM68P.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreFoundation-9AI9T5DUYZHURDTF3E1RTR0GA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Spatial-3JWJQKNK6YEKTOZY6FGOW17GF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/os-3WPKMN1N6WQFO533KWM7W5LP3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreGraphics-8YFRX061R44L6K4Q3EHROP3ZZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CFNetwork-CL0II1SR7VMQWDHGZ6KS9IQTE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreAudioTypes-538DCWWGWT29567NC4OGQ2W46.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Security-R06RME5K52L96HZRXSPJC7EM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ImageIO-DSNY3UQDCPI7M67177NR5PSRC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreAudio-BDDWTRXZGXHZMBC8YHAGHFYEF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreText-B35AVTTDBK2MV928RKNNV534I.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/dnssd-PBPRCVDLQTGMZFDEH4Z04RK5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Foundation-D7BWSB458496KBJ1Q22R435R3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/os_workgroup-5ETH3FJNVSO3VTROCU7UH546W.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Spatial-A3QCU2Q3L8WTJJDXX96VJSD51.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Dispatch-5XW8O7UKTAOEC20GHMVH5QHIU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreFoundation-ARD6KHTSDIUEAZZH3261EE2YI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/dnssd-9AU32K7BR683O2QTTWPYTFUSR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/XPC-D8UDMKUCEAGT8R5G39LLRZ2CL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-8UESB7CZ1ZI3EQN7CVSPEUBG0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Network-C28V15X5VWWPV60W3HJSJO9FX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreGraphics-2MMI9VBMR2ZJ5BDH45FY8XLH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreData-41F7HZ3L7E27CRNPV5XHFST4K.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/IOSurface-8SE0N57BJF3WJQYEHZ5G9O1X2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/RelevanceKit-BFYSGVEESYZDIY4Z0B3KWSKA6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreSpotlight-26EPHEDBXXI7HPWMD5V7ZN502.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/DataDetection-8KJ39SG80084Q075OA1N8KVRV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreText-2UINP9Y3X1JW0TKM0DSF3X3NT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/ImageIO-1WCE85NPK6WVGE10RNI7DIPMN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UserNotifications-24JRJ0HU5IXLQUHV9XP73Y8WH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/os-A9U4QQBFLSP0684PQ4N6A1ZLO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/FileProvider-AVEOCBELZS534O14O7TJHJ4PC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreAudioTypes-C4K5I43J0JWUO9GKTXXQ23O3T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Security-6WN3XUXC7WT6RA0JFVY11IOVA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/WidgetKit-92G91V2SFJ3167HVW9BXI0UQC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Accessibility-1SASCUFL92UAPJ1VCWV89BGS0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AVRouting-AY94W0I685J76LSETXT7ZL9CU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Symbols-ADQDIZEIC6QVVP2NNQ4YLUB3X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreAudio-3BXNYVP63MF9JAUS62DH0B97.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UIUtilities-E0548KIDD9IACP9VCTL9NITYP.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Metal-7PCJ9RQ3RL27FUJ48GNDZ4MJA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/LocalAuthentication-2LE46JN8SPG5P5RZ8SUVZ7SIX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_LocationEssentials-F1WKQMQYJKWEL9G0X2RE9QXC0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AppIntents-E5MMK2GOJNSFYR51Z6RBMO3ND.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/BackgroundTasks-BW4POV7YJ4AQ5LBK4S1BZXAYY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreLocation-ES9YPM6SD4WMMQDID50CDLW8C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CFNetwork-7LDDYF72WKYO95K42391PHOEE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AppIntentsTypeSupport-DTKTGF59839PT62T7MFKMF6W5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/OSLog-MDDIV3851W822OVDBBNAMWJK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Intents-94331ZV93K2LMH2ORNJBQQSGB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreMotion-2XIPNUMBD5H22PEY71EU7TJU2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CloudKit-8C5MZG5S7M2YD2EP5CEPRR55F.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Foundation-E0AM9UAEJ3ISH5SEYYFIUUBDG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreMIDI-EI60KYUH66M8I34N5QV7FUL34.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/OpenGLES-EW5LHHZ9H1RA5LW2H0AIAC7KC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreTransferable-4ISEGVTA9UDIVIHZBOPGQECLO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AudioToolbox-APV1PRKY0Q2USA0K1VZA8BAKO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreVideo-EMB6QM12NSDW9EYG1WC2VYHWO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/OSLog-2G4CHTJ18LKCWE0VTI9WY9M3O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/OpenGLES-1GGJXQSJXL8FC9NFA5UIJZYEK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/LocalAuthentication-28CFE40GEP61UJBE6MZ3HXIN9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/IOSurface-78SBH1KKV5IDYYAZSAKMZWU5G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreData-3TUYOCD3U1I0ALIBXC8KDA77M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Symbols-BYDO84Z49094PYS4DYCRIDHEM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AppIntentsTypeSupport-CMBPT50X6KGK6N1TORZDF5KTW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreMIDI-13MVACF9RZDQW9OB6Z754CQGI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/WidgetKit-9F4OSU43OK9TTF6IIALFM2NC1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Accelerate-8A9LWGHY2JV0597T4SHLXFRDX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AppIntents-EA551UCJHPTKPBLMI9VZJZT7V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreML-YE2HE4G03JCSBYAYNE6A11HM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/RelevanceKit-BDCOL3IJSN8ER05X72CUJOFA6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Network-CEHCT650PP1OIGCRJ6XLIOOBI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AudioToolbox-512QX5GES3HPR4Q89MQS7SI3G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-74T4V72G310LF1E5L0EF6EX2G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreTransferable-8RD45TAFNJJZ095QEMVW7CS9N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Accessibility-DI2LA3VFUCFXW92P0BIGPV61O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/QuartzCore-77V3EV4UM621VJFJOB0WT66SD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/FileProvider-6MKION45Z3FI48PQW57ETT5VE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/DataDetection-DWKKXU21V9FSIX7LEO5OT2QV8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/SwiftUICore-7IB0BUORDI8S5JVLJ8DGMTK51.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UserNotifications-6197ETLM62G0ZYAY5S5NVQG4M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AVRouting-3G06Y4V25RCCGKGJJWO6YL9J7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/BackgroundTasks-8LYYO3G106KU6U200MWL8HOIC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreImage-8G8NXY2J3J9ZOOXGR8QO13D0G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Metal-12W8SW4NS8ADJWB1UQFL7B7N4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreSpotlight-A8A2KLGPIYJKTV0FGDIG47FH2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/_LocationEssentials-1TNNGC35B6KO0G338MZTEUJI0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreMedia-15Z3AM04Q2248HAX03QJSC5H.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UIKit-ELXGMG9DQPZ91C5M0TRT9XHBT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreLocation-BUSIO50WO4TLR7R2LR1FJ49JD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreVideo-3RJSNJGOK8PG4P3CMKL0G6KG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/MediaToolbox-AEX66WEIBHPHUF28BOCFWZ6FM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreMotion-5SD3Q67B5AWFQDKNP2QYJD5JO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Vision-3J57750MH77FVLXYEFMMHGK5D.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/QuartzCore-EPDGNZLKAB2UXR1OW6GM2B9PM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AVFAudio-7Y642FFO0T1MLFVZQO4TI1QYY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Intents-U0F5KVNS0HRJ912ZTN35CPI3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreImage-EJJVRLGJ306OA74GIF477GAQF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreMedia-9ZO1OI3NKP0A2AI7LJ5ZZ0FYJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CloudKit-LX8N7XOUFFNQFDQ225TQ6VI6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Accelerate-1RI1YM37YYYAXAWLNUOE2J0AH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/WebKit-671M871LZG6WY8VAFNJXTQA0L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/MediaToolbox-1PSZW6IVF7VNP1VLBE7XKZKML.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/SwiftUI-1A1AMARDYYFL0S7PLLJ1OLLRH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/VideoToolbox-BCFZJNX8HJVKOFM3ZOO7JO8MD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/CoreML-EZPVX18YMI0UT3TKHIHPND2LL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/VideoToolbox-22HREG1OLEX1E6R5TZ264PZKV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/SwiftUICore-9P4GMLD2CZVTPACO8FWX8132C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Vision-7I2V5BNW4D8BDGLJ2IGXOCUCS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AVFAudio-9Z8OWY1E89MSNN8KVY3KJIX7H.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AVFoundation-77AD4YE40M0SPJD77J03GP80X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UIUtilities-2QYDW16L96DET2KB5IOPEVRGX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/AVFoundation-BEU641OA7BPN960VRXZIIS2YW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/UIKit-8NV1LBI5EX6Z66BX5KW6CF1OZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Photos-4BE6TF0HTE6VIJQR1PVRZRNIY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/Photos-C09BFCB6H5S9GW343DIHMEJLY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/PhotosUI-2WAD620GRCJXHKJH458WNZ18A.pcm
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ Demo (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal x86_64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    
+
+SwiftCompile normal x86_64 Compiling\ PantallaPedido.swift,\ PantallaPedidos.swift,\ PantallaPlataformas.swift,\ PantallaSala.swift,\ PantallaTransferencias.swift,\ PantallasCuenta.swift,\ PantallasMas.swift,\ PantallasPlataforma1.swift,\ PedidosBandeja.swift,\ PedidosMarcador.swift,\ PrevisionHoy.swift,\ Privacidad.swift,\ PuenteWidget.swift,\ SalaDatos.swift,\ SalaEstadio.swift,\ SalaPiezas.swift,\ Sesion.swift,\ TemasBeta.swift,\ TemasDatos.swift,\ TemasFondos.swift,\ TemasTexturas.swift,\ TemasVida.swift,\ TemasVidaDibujo.swift,\ VistasWidget.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaPedido.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaPedidos.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaPlataformas.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaSala.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaTransferencias.swift /Users/runner/work/app-demo/app-demo/Demo/PantallasCuenta.swift /Users/runner/work/app-demo/app-demo/Demo/PantallasMas.swift /Users/runner/work/app-demo/app-demo/Demo/PantallasPlataforma1.swift /Users/runner/work/app-demo/app-demo/Demo/PedidosBandeja.swift /Users/runner/work/app-demo/app-demo/Demo/PedidosMarcador.swift /Users/runner/work/app-demo/app-demo/Demo/PrevisionHoy.swift /Users/runner/work/app-demo/app-demo/Demo/Privacidad.swift /Users/runner/work/app-demo/app-demo/Demo/PuenteWidget.swift /Users/runner/work/app-demo/app-demo/Demo/SalaDatos.swift /Users/runner/work/app-demo/app-demo/Demo/SalaEstadio.swift /Users/runner/work/app-demo/app-demo/Demo/SalaPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/Sesion.swift /Users/runner/work/app-demo/app-demo/Demo/TemasBeta.swift /Users/runner/work/app-demo/app-demo/Demo/TemasDatos.swift /Users/runner/work/app-demo/app-demo/Demo/TemasFondos.swift /Users/runner/work/app-demo/app-demo/Demo/TemasTexturas.swift /Users/runner/work/app-demo/app-demo/Demo/TemasVida.swift /Users/runner/work/app-demo/app-demo/Demo/TemasVidaDibujo.swift /Users/runner/work/app-demo/app-demo/Demo/VistasWidget.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaPedido.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaPedido.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaPedidos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaPedidos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaPlataformas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaPlataformas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaSala.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaSala.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaTransferencias.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaTransferencias.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallasCuenta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallasCuenta.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallasMas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallasMas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallasPlataforma1.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallasPlataforma1.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PedidosBandeja.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PedidosBandeja.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PedidosMarcador.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PedidosMarcador.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PrevisionHoy.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PrevisionHoy.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Privacidad.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Privacidad.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PuenteWidget.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PuenteWidget.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/SalaDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile SalaDatos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/SalaEstadio.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile SalaEstadio.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/SalaPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile SalaPiezas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Sesion.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Sesion.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/TemasBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasBeta.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/TemasDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasDatos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/TemasFondos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasFondos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/TemasTexturas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasTexturas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/TemasVida.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasVida.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/TemasVidaDibujo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasVidaDibujo.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/VistasWidget.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile VistasWidget.swift
+
+/Users/runner/work/app-demo/app-demo/Demo/SalaPiezas.swift:168:72: warning: main actor-isolated property 'total' can not be referenced from a nonisolated context
+155 |     @State private var dibujado = false
+156 | 
+157 |     private var total: Int { max(d.tramos.last?.upperBound ?? d.noche.minutos, 1) }
+    |                 `- note: property declared here
+158 |     private var maxGente: Int { max(d.gente.map(\.personas).max() ?? 0, 1) }
+159 |     private var maxPropina: Int { max(d.propinas.map(\.tokens).max() ?? 1, 1) }
+    :
+166 |             ZStack(alignment: .topLeading) {
+167 |                 Canvas { ctx, size in
+168 |                     func x(_ m: Int) -> CGFloat { CGFloat(m) / CGFloat(total) * (size.width - 16) + 8 }
+    |                                                                        `- warning: main actor-isolated property 'total' can not be referenced from a nonisolated context
+169 |                     
+170 |                     if d.gente.count > 1 {
+SwiftCompile normal x86_64 Compiling\ PanelHerramientas.swift,\ PanelLateral.swift,\ PantallaAgenda.swift,\ PantallaAjustesManual.swift,\ PantallaAjustesTienda.swift,\ PantallaAvisos.swift,\ PantallaBloqueo.swift,\ PantallaCanal.swift,\ PantallaCarga.swift,\ PantallaCategoria.swift,\ PantallaClaves.swift,\ PantallaClientes.swift,\ PantallaCobros.swift,\ PantallaComoSeCalcula.swift,\ PantallaCuenta.swift,\ PantallaDetalleP1.swift,\ PantallaEntrar.swift,\ PantallaFaceID.swift,\ PantallaHistorial.swift,\ PantallaHucha.swift,\ PantallaHuchaNueva.swift,\ PantallaInformacionPersonal.swift,\ PantallaInicio.swift,\ PantallaManual.swift /Users/runner/work/app-demo/app-demo/Demo/PanelHerramientas.swift /Users/runner/work/app-demo/app-demo/Demo/PanelLateral.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAgenda.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesManual.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesTienda.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAvisos.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaBloqueo.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCanal.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCarga.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaClaves.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaClientes.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCobros.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaComoSeCalcula.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaDetalleP1.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaEntrar.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaFaceID.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaHistorial.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaHucha.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaHuchaNueva.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaInformacionPersonal.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaInicio.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaManual.swift (in target 'Demo' from project 'Demo')
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift:135:24: warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+ 12 |     @State private var estado: Carga<Bool> = .cargando
+ 13 |     @State private var eligiendo: PhotosPickerItem?
+ 14 |     @State private var subiendo = false
+    |                        `- note: property declared here
+ 15 |     @State private var aviso: (texto: String, bien: Bool)?
+ 16 |     @State private var vetando = false
+    :
+133 |             PhotosPicker(selection: $eligiendo, matching: .videos) {
+134 |                 HStack {
+135 |                     if subiendo { ProgressView().controlSize(.small) }
+    |                        `- warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+136 |                     else { Image(systemName: "arrow.up.circle") }
+137 |                     Text(subiendo ? "Subiendo…" : "Subir un vídeo")
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift:137:26: warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+ 12 |     @State private var estado: Carga<Bool> = .cargando
+ 13 |     @State private var eligiendo: PhotosPickerItem?
+ 14 |     @State private var subiendo = false
+    |                        `- note: property declared here
+ 15 |     @State private var aviso: (texto: String, bien: Bool)?
+ 16 |     @State private var vetando = false
+    :
+135 |                     if subiendo { ProgressView().controlSize(.small) }
+136 |                     else { Image(systemName: "arrow.up.circle") }
+137 |                     Text(subiendo ? "Subiendo…" : "Subir un vídeo")
+    |                          `- warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+138 |                 }
+139 |                 .frame(maxWidth: .infinity).padding(.vertical, 4)
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:120:28: warning: main actor-isolated property 'foto' can not be referenced from a nonisolated context
+ 13 |     @State private var aviso: String?
+ 14 |     @State private var eligiendoFoto: PhotosPickerItem?
+ 15 |     @State private var foto: UIImage?
+    |                        `- note: property declared here
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+    :
+118 |             PhotosPicker(selection: $eligiendoFoto, matching: .images) {
+119 |                 ZStack(alignment: .bottomTrailing) {
+120 |                     if let foto {
+    |                            `- warning: main actor-isolated property 'foto' can not be referenced from a nonisolated context
+121 |                         Image(uiImage: foto)
+122 |                             .resizable().scaledToFill()
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:123:43: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+121 |                         Image(uiImage: foto)
+122 |                             .resizable().scaledToFill()
+123 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                           `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+124 |                             .clipShape(.circle)
+125 |                     } else {
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:123:63: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+121 |                         Image(uiImage: foto)
+122 |                             .resizable().scaledToFill()
+123 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                                               `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+124 |                             .clipShape(.circle)
+125 |                     } else {
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:126:37: warning: main actor-isolated property 'nombre' can not be referenced from a nonisolated context
+ 10 |     @Environment(\.tema) private var tema
+ 11 | 
+ 12 |     @State private var nombre = ""
+    |                        `- note: property declared here
+ 13 |     @State private var aviso: String?
+ 14 |     @State private var eligiendoFoto: PhotosPickerItem?
+    :
+124 |                             .clipShape(.circle)
+125 |                     } else {
+126 |                         Text(String(nombre.prefix(1)).uppercased())
+    |                                     `- warning: main actor-isolated property 'nombre' can not be referenced from a nonisolated context
+127 |                             .font(.system(size: ladoAvatar * 0.4, weight: .medium,
+128 |                                           design: .rounded))
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:127:49: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+125 |                     } else {
+126 |                         Text(String(nombre.prefix(1)).uppercased())
+127 |                             .font(.system(size: ladoAvatar * 0.4, weight: .medium,
+    |                                                 `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+128 |                                           design: .rounded))
+129 |                             .foregroundStyle(.white)
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:130:43: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+128 |                                           design: .rounded))
+129 |                             .foregroundStyle(.white)
+130 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                           `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+131 |                             .background(LinearGradient(colors: [Diseno.azul, Diseno.morado],
+132 |                                                        startPoint: .topLeading,
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:130:63: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+128 |                                           design: .rounded))
+129 |                             .foregroundStyle(.white)
+130 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                                               `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+131 |                             .background(LinearGradient(colors: [Diseno.azul, Diseno.morado],
+132 |                                                        startPoint: .topLeading,
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:136:39: warning: main actor-isolated property 'subiendoFoto' can not be referenced from a nonisolated context
+ 14 |     @State private var eligiendoFoto: PhotosPickerItem?
+ 15 |     @State private var foto: UIImage?
+ 16 |     @State private var subiendoFoto = false
+    |                        `- note: property declared here
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    :
+134 |                                         in: .circle)
+135 |                     }
+136 |                     Image(systemName: subiendoFoto ? "arrow.up.circle.fill" : "camera.fill")
+    |                                       `- warning: main actor-isolated property 'subiendoFoto' can not be referenced from a nonisolated context
+137 |                         .font(.caption)
+138 |                         .foregroundStyle(tema.sobreRelleno)
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:138:42: warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+  8 |     @Environment(Sesion.self) private var sesion
+  9 |     @Environment(\.dismiss) private var cerrar
+ 10 |     @Environment(\.tema) private var tema
+    |                                      `- note: property declared here
+ 11 | 
+ 12 |     @State private var nombre = ""
+    :
+136 |                     Image(systemName: subiendoFoto ? "arrow.up.circle.fill" : "camera.fill")
+137 |                         .font(.caption)
+138 |                         .foregroundStyle(tema.sobreRelleno)
+    |                                          `- warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+139 |                         .frame(width: 28, height: 28)
+140 |                         .background(tema.relleno, in: .circle)
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:140:37: warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+  8 |     @Environment(Sesion.self) private var sesion
+  9 |     @Environment(\.dismiss) private var cerrar
+ 10 |     @Environment(\.tema) private var tema
+    |                                      `- note: property declared here
+ 11 | 
+ 12 |     @State private var nombre = ""
+    :
+138 |                         .foregroundStyle(tema.sobreRelleno)
+139 |                         .frame(width: 28, height: 28)
+140 |                         .background(tema.relleno, in: .circle)
+    |                                     `- warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+141 |                         .overlay(Circle().strokeBorder(Color(.systemBackground), lineWidth: 2))
+142 |                 }
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PanelHerramientas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PanelHerramientas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PanelLateral.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PanelLateral.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAgenda.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAgenda.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesManual.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAjustesManual.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesTienda.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAjustesTienda.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAvisos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAvisos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaBloqueo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaBloqueo.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCanal.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCanal.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCarga.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCarga.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCategoria.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaClaves.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaClaves.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaClientes.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaClientes.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCobros.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCobros.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaComoSeCalcula.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaComoSeCalcula.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCuenta.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaDetalleP1.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaDetalleP1.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaEntrar.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaEntrar.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaFaceID.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaFaceID.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaHistorial.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaHistorial.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaHucha.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaHucha.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaHuchaNueva.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaHuchaNueva.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaInformacionPersonal.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaInformacionPersonal.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaInicio.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaInicio.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PantallaManual.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaManual.swift
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/SwiftUI-5W5U0T1J2QF6TAP3NNZX5WF0B.pcm
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for Demo (in target 'Demo' from project 'Demo')
+
+SwiftDriver\ Compilation\ Requirements Demo normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Demo -Onone @/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftFileList -DMAQUETA -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/app-demo/app-demo/dd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache -output-file-map /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/include -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-Swift.h -working-directory /Users/runner/work/app-demo/app-demo -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/WebKit-3WMKGDPRZ402GORV2TDAG88PM.pcm
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftmodule (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftmodule /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftdoc (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftdoc /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.abi.json (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.abi.json /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftsourceinfo (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftsourceinfo /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules/PhotosUI-6V1A8G2QUHHMFLPVF3OTEOPWO.pcm
+
+SwiftCompile normal x86_64 Compiling\ HuchaMeses.swift,\ HuchaPiezas.swift,\ ImportarPlataforma1.swift,\ Impuestos.swift,\ ImpuestosBorrador.swift,\ ImpuestosComprobar.swift,\ ImpuestosContactos.swift,\ ImpuestosExcel.swift,\ ImpuestosGastos.swift,\ ImpuestosIngreso.swift,\ ImpuestosIngresosLista.swift,\ ImpuestosPiezas.swift,\ ImpuestosSello.swift,\ InicioPiezas.swift,\ Instantanea.swift,\ LectorCapturas.swift,\ LlegadaBeta.swift,\ Logo.swift,\ LogosIncrustados.swift,\ Maqueta.swift,\ MaquetaDatos.swift,\ MaquetaWidget.swift,\ MarcadorPiezas.swift,\ PanelBeta.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaMeses.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/ImportarPlataforma1.swift /Users/runner/work/app-demo/app-demo/Demo/Impuestos.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosBorrador.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosComprobar.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosContactos.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosExcel.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosGastos.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngreso.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngresosLista.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift /Users/runner/work/app-demo/app-demo/Demo/InicioPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/Instantanea.swift /Users/runner/work/app-demo/app-demo/Demo/LectorCapturas.swift /Users/runner/work/app-demo/app-demo/Demo/LlegadaBeta.swift /Users/runner/work/app-demo/app-demo/Demo/Logo.swift /Users/runner/work/app-demo/app-demo/Demo/LogosIncrustados.swift /Users/runner/work/app-demo/app-demo/Demo/Maqueta.swift /Users/runner/work/app-demo/app-demo/Demo/MaquetaDatos.swift /Users/runner/work/app-demo/app-demo/Demo/MaquetaWidget.swift /Users/runner/work/app-demo/app-demo/Demo/MarcadorPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/PanelBeta.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/HuchaMeses.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaMeses.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/HuchaPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaPiezas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImportarPlataforma1.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImportarPlataforma1.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Impuestos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Impuestos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosBorrador.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosBorrador.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosComprobar.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosComprobar.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosContactos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosContactos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosExcel.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosExcel.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosGastos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosGastos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngreso.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosIngreso.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngresosLista.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosIngresosLista.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosPiezas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosSello.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/InicioPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile InicioPiezas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Instantanea.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Instantanea.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/LectorCapturas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile LectorCapturas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/LlegadaBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile LlegadaBeta.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Logo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Logo.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/LogosIncrustados.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile LogosIncrustados.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Maqueta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Maqueta.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/MaquetaDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile MaquetaDatos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/MaquetaWidget.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile MaquetaWidget.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/MarcadorPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile MarcadorPiezas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/PanelBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PanelBeta.swift
+
+/Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift:556:14: warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+554 |             }
+555 |             (Text("La app ").foregroundStyle(Marcador.apoyo)
+556 |              + Text(Formato.euros(limpio(app))).fontWeight(.semibold))
+    |              `- warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+557 |             (Text("\(otro) ").foregroundStyle(Marcador.apoyo)
+558 |              + Text(suyo.map { Formato.euros(limpio($0)) } ?? "—").fontWeight(.semibold))
+
+/Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift:558:14: warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+556 |              + Text(Formato.euros(limpio(app))).fontWeight(.semibold))
+557 |             (Text("\(otro) ").foregroundStyle(Marcador.apoyo)
+558 |              + Text(suyo.map { Formato.euros(limpio($0)) } ?? "—").fontWeight(.semibold))
+    |              `- warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+559 |         }
+560 |         .monospacedDigit()
+
+/Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift:895:87: warning: converting non-Sendable function value to '@isolated(any) @Sendable (String) -> Void' may introduce data races
+893 |                 .navigationSubtitle(DatosImpuestos.nombre(d.trimestre, conAño: true))
+894 |                 .toolbarTitleMenu {
+895 |                     Picker("Trimestre", selection: Binding(get: { d.trimestre }, set: elegir)) {
+    |                                                                                       `- warning: converting non-Sendable function value to '@isolated(any) @Sendable (String) -> Void' may introduce data races
+896 |                         ForEach(d.trimestres.reversed(), id: \.self) { t in
+897 |                             Label(DatosImpuestos.nombre(t, conAño: true),
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Demo (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal arm64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling PanelHerramientas.swift, PanelLateral.swift, PantallaAgenda.swift, PantallaAjustesManual.swift, PantallaAjustesTienda.swift, PantallaAvisos.swift, PantallaBloqueo.swift, PantallaCanal.swift, PantallaCarga.swift, PantallaCategoria.swift, PantallaClaves.swift, PantallaClientes.swift, PantallaCobros.swift, PantallaComoSeCalcula.swift, PantallaCuenta.swift, PantallaDetalleP1.swift, PantallaEntrar.swift, PantallaFaceID.swift, PantallaHistorial.swift, PantallaHucha.swift, PantallaHuchaNueva.swift, PantallaInformacionPersonal.swift, PantallaInicio.swift, PantallaManual.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal arm64 Compiling\ HuchaMeses.swift,\ HuchaPiezas.swift,\ ImportarPlataforma1.swift,\ Impuestos.swift,\ ImpuestosBorrador.swift,\ ImpuestosComprobar.swift,\ ImpuestosContactos.swift,\ ImpuestosExcel.swift,\ ImpuestosGastos.swift,\ ImpuestosIngreso.swift,\ ImpuestosIngresosLista.swift,\ ImpuestosPiezas.swift,\ ImpuestosSello.swift,\ InicioPiezas.swift,\ Instantanea.swift,\ LectorCapturas.swift,\ LlegadaBeta.swift,\ Logo.swift,\ LogosIncrustados.swift,\ Maqueta.swift,\ MaquetaDatos.swift,\ MaquetaWidget.swift,\ MarcadorPiezas.swift,\ PanelBeta.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaMeses.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/ImportarPlataforma1.swift /Users/runner/work/app-demo/app-demo/Demo/Impuestos.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosBorrador.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosComprobar.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosContactos.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosExcel.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosGastos.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngreso.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngresosLista.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift /Users/runner/work/app-demo/app-demo/Demo/InicioPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/Instantanea.swift /Users/runner/work/app-demo/app-demo/Demo/LectorCapturas.swift /Users/runner/work/app-demo/app-demo/Demo/LlegadaBeta.swift /Users/runner/work/app-demo/app-demo/Demo/Logo.swift /Users/runner/work/app-demo/app-demo/Demo/LogosIncrustados.swift /Users/runner/work/app-demo/app-demo/Demo/Maqueta.swift /Users/runner/work/app-demo/app-demo/Demo/MaquetaDatos.swift /Users/runner/work/app-demo/app-demo/Demo/MaquetaWidget.swift /Users/runner/work/app-demo/app-demo/Demo/MarcadorPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/PanelBeta.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/HuchaMeses.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaMeses.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/HuchaPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaPiezas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImportarPlataforma1.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImportarPlataforma1.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Impuestos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Impuestos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosBorrador.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosBorrador.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosComprobar.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosComprobar.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosContactos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosContactos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosExcel.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosExcel.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosGastos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosGastos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngreso.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosIngreso.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosIngresosLista.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosIngresosLista.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosPiezas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile ImpuestosSello.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/InicioPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile InicioPiezas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Instantanea.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Instantanea.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/LectorCapturas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile LectorCapturas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/LlegadaBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile LlegadaBeta.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Logo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Logo.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/LogosIncrustados.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile LogosIncrustados.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Maqueta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Maqueta.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/MaquetaDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile MaquetaDatos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/MaquetaWidget.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile MaquetaWidget.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/MarcadorPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile MarcadorPiezas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PanelBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PanelBeta.swift
+
+/Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift:556:14: warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+554 |             }
+555 |             (Text("La app ").foregroundStyle(Marcador.apoyo)
+556 |              + Text(Formato.euros(limpio(app))).fontWeight(.semibold))
+    |              `- warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+557 |             (Text("\(otro) ").foregroundStyle(Marcador.apoyo)
+558 |              + Text(suyo.map { Formato.euros(limpio($0)) } ?? "—").fontWeight(.semibold))
+
+/Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift:558:14: warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+556 |              + Text(Formato.euros(limpio(app))).fontWeight(.semibold))
+557 |             (Text("\(otro) ").foregroundStyle(Marcador.apoyo)
+558 |              + Text(suyo.map { Formato.euros(limpio($0)) } ?? "—").fontWeight(.semibold))
+    |              `- warning: '+' was deprecated in iOS 26.0: Use string interpolation on `Text` instead: `Text("Hello \(name)")` [#DeprecatedDeclaration]
+559 |         }
+560 |         .monospacedDigit()
+
+/Users/runner/work/app-demo/app-demo/Demo/ImpuestosSello.swift:895:87: warning: converting non-Sendable function value to '@isolated(any) @Sendable (String) -> Void' may introduce data races
+893 |                 .navigationSubtitle(DatosImpuestos.nombre(d.trimestre, conAño: true))
+894 |                 .toolbarTitleMenu {
+895 |                     Picker("Trimestre", selection: Binding(get: { d.trimestre }, set: elegir)) {
+    |                                                                                       `- warning: converting non-Sendable function value to '@isolated(any) @Sendable (String) -> Void' may introduce data races
+896 |                         ForEach(d.trimestres.reversed(), id: \.self) { t in
+897 |                             Label(DatosImpuestos.nombre(t, conAño: true),
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+SwiftDriverJobDiscovery normal x86_64 Compiling PantallaPedido.swift, PantallaPedidos.swift, PantallaPlataformas.swift, PantallaSala.swift, PantallaTransferencias.swift, PantallasCuenta.swift, PantallasMas.swift, PantallasPlataforma1.swift, PedidosBandeja.swift, PedidosMarcador.swift, PrevisionHoy.swift, Privacidad.swift, PuenteWidget.swift, SalaDatos.swift, SalaEstadio.swift, SalaPiezas.swift, Sesion.swift, TemasBeta.swift, TemasDatos.swift, TemasFondos.swift, TemasTexturas.swift, TemasVida.swift, TemasVidaDibujo.swift, VistasWidget.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal arm64 Compiling\ API.swift,\ AgendaDatos.swift,\ AgendaPiezas.swift,\ Aparato.swift,\ AvisosDelIPhone.swift,\ CalendarioHuchaNuevo.swift,\ CamposJoya.swift,\ CargaIncrustada.swift,\ Cerrojo.swift,\ CerrojoBeta.swift,\ CobrosMarcador.swift,\ CodigoNumerico.swift,\ Compilacion.swift,\ Crear.swift,\ DemoApp.swift,\ DetalleNuevo.swift,\ Diseno.swift,\ EncargosBalanza.swift,\ FotoPerfil.swift,\ GrupoCompartido.swift,\ HerramientasHojas.swift,\ HistorialNuevo.swift,\ HuchaApartar.swift,\ HuchaCobros.swift /Users/runner/work/app-demo/app-demo/Demo/API.swift /Users/runner/work/app-demo/app-demo/Demo/AgendaDatos.swift /Users/runner/work/app-demo/app-demo/Demo/AgendaPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/Aparato.swift /Users/runner/work/app-demo/app-demo/Demo/AvisosDelIPhone.swift /Users/runner/work/app-demo/app-demo/Demo/CalendarioHuchaNuevo.swift /Users/runner/work/app-demo/app-demo/Demo/CamposJoya.swift /Users/runner/work/app-demo/app-demo/Demo/CargaIncrustada.swift /Users/runner/work/app-demo/app-demo/Demo/Cerrojo.swift /Users/runner/work/app-demo/app-demo/Demo/CerrojoBeta.swift /Users/runner/work/app-demo/app-demo/Demo/CobrosMarcador.swift /Users/runner/work/app-demo/app-demo/Demo/CodigoNumerico.swift /Users/runner/work/app-demo/app-demo/Demo/Compilacion.swift /Users/runner/work/app-demo/app-demo/Demo/Crear.swift /Users/runner/work/app-demo/app-demo/Demo/DemoApp.swift /Users/runner/work/app-demo/app-demo/Demo/DetalleNuevo.swift /Users/runner/work/app-demo/app-demo/Demo/Diseno.swift /Users/runner/work/app-demo/app-demo/Demo/EncargosBalanza.swift /Users/runner/work/app-demo/app-demo/Demo/FotoPerfil.swift /Users/runner/work/app-demo/app-demo/Demo/GrupoCompartido.swift /Users/runner/work/app-demo/app-demo/Demo/HerramientasHojas.swift /Users/runner/work/app-demo/app-demo/Demo/HistorialNuevo.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaApartar.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaCobros.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/API.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile API.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/AgendaDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile AgendaDatos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/AgendaPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile AgendaPiezas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Aparato.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Aparato.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/AvisosDelIPhone.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile AvisosDelIPhone.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/CalendarioHuchaNuevo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CalendarioHuchaNuevo.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/CamposJoya.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CamposJoya.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/CargaIncrustada.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CargaIncrustada.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Cerrojo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Cerrojo.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/CerrojoBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CerrojoBeta.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/CobrosMarcador.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CobrosMarcador.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/CodigoNumerico.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CodigoNumerico.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Compilacion.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Compilacion.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Crear.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Crear.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/DemoApp.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile DemoApp.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/DetalleNuevo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile DetalleNuevo.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Diseno.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Diseno.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/EncargosBalanza.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile EncargosBalanza.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/FotoPerfil.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile FotoPerfil.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/GrupoCompartido.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile GrupoCompartido.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/HerramientasHojas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HerramientasHojas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/HistorialNuevo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HistorialNuevo.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/HuchaApartar.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaApartar.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/HuchaCobros.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaCobros.swift
+
+SwiftDriverJobDiscovery normal x86_64 Compiling HuchaMeses.swift, HuchaPiezas.swift, ImportarPlataforma1.swift, Impuestos.swift, ImpuestosBorrador.swift, ImpuestosComprobar.swift, ImpuestosContactos.swift, ImpuestosExcel.swift, ImpuestosGastos.swift, ImpuestosIngreso.swift, ImpuestosIngresosLista.swift, ImpuestosPiezas.swift, ImpuestosSello.swift, InicioPiezas.swift, Instantanea.swift, LectorCapturas.swift, LlegadaBeta.swift, Logo.swift, LogosIncrustados.swift, Maqueta.swift, MaquetaDatos.swift, MaquetaWidget.swift, MarcadorPiezas.swift, PanelBeta.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal x86_64 Compiling\ API.swift,\ AgendaDatos.swift,\ AgendaPiezas.swift,\ Aparato.swift,\ AvisosDelIPhone.swift,\ CalendarioHuchaNuevo.swift,\ CamposJoya.swift,\ CargaIncrustada.swift,\ Cerrojo.swift,\ CerrojoBeta.swift,\ CobrosMarcador.swift,\ CodigoNumerico.swift,\ Compilacion.swift,\ Crear.swift,\ DemoApp.swift,\ DetalleNuevo.swift,\ Diseno.swift,\ EncargosBalanza.swift,\ FotoPerfil.swift,\ GrupoCompartido.swift,\ HerramientasHojas.swift,\ HistorialNuevo.swift,\ HuchaApartar.swift,\ HuchaCobros.swift /Users/runner/work/app-demo/app-demo/Demo/API.swift /Users/runner/work/app-demo/app-demo/Demo/AgendaDatos.swift /Users/runner/work/app-demo/app-demo/Demo/AgendaPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/Aparato.swift /Users/runner/work/app-demo/app-demo/Demo/AvisosDelIPhone.swift /Users/runner/work/app-demo/app-demo/Demo/CalendarioHuchaNuevo.swift /Users/runner/work/app-demo/app-demo/Demo/CamposJoya.swift /Users/runner/work/app-demo/app-demo/Demo/CargaIncrustada.swift /Users/runner/work/app-demo/app-demo/Demo/Cerrojo.swift /Users/runner/work/app-demo/app-demo/Demo/CerrojoBeta.swift /Users/runner/work/app-demo/app-demo/Demo/CobrosMarcador.swift /Users/runner/work/app-demo/app-demo/Demo/CodigoNumerico.swift /Users/runner/work/app-demo/app-demo/Demo/Compilacion.swift /Users/runner/work/app-demo/app-demo/Demo/Crear.swift /Users/runner/work/app-demo/app-demo/Demo/DemoApp.swift /Users/runner/work/app-demo/app-demo/Demo/DetalleNuevo.swift /Users/runner/work/app-demo/app-demo/Demo/Diseno.swift /Users/runner/work/app-demo/app-demo/Demo/EncargosBalanza.swift /Users/runner/work/app-demo/app-demo/Demo/FotoPerfil.swift /Users/runner/work/app-demo/app-demo/Demo/GrupoCompartido.swift /Users/runner/work/app-demo/app-demo/Demo/HerramientasHojas.swift /Users/runner/work/app-demo/app-demo/Demo/HistorialNuevo.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaApartar.swift /Users/runner/work/app-demo/app-demo/Demo/HuchaCobros.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/API.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile API.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/AgendaDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile AgendaDatos.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/AgendaPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile AgendaPiezas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Aparato.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Aparato.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/AvisosDelIPhone.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile AvisosDelIPhone.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/CalendarioHuchaNuevo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CalendarioHuchaNuevo.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/CamposJoya.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CamposJoya.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/CargaIncrustada.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CargaIncrustada.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Cerrojo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Cerrojo.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/CerrojoBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CerrojoBeta.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/CobrosMarcador.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CobrosMarcador.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/CodigoNumerico.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile CodigoNumerico.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Compilacion.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Compilacion.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Crear.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Crear.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/DemoApp.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile DemoApp.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/DetalleNuevo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile DetalleNuevo.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/Diseno.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Diseno.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/EncargosBalanza.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile EncargosBalanza.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/FotoPerfil.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile FotoPerfil.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/GrupoCompartido.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile GrupoCompartido.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/HerramientasHojas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HerramientasHojas.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/HistorialNuevo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HistorialNuevo.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/HuchaApartar.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaApartar.swift
+
+SwiftCompile normal x86_64 /Users/runner/work/app-demo/app-demo/Demo/HuchaCobros.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile HuchaCobros.swift
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for Demo (in target 'Demo' from project 'Demo')
+
+SwiftDriver\ Compilation\ Requirements Demo normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Demo -Onone @/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftFileList -DMAQUETA -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/app-demo/app-demo/dd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache -output-file-map /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/include -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-Swift.h -working-directory /Users/runner/work/app-demo/app-demo -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling API.swift, AgendaDatos.swift, AgendaPiezas.swift, Aparato.swift, AvisosDelIPhone.swift, CalendarioHuchaNuevo.swift, CamposJoya.swift, CargaIncrustada.swift, Cerrojo.swift, CerrojoBeta.swift, CobrosMarcador.swift, CodigoNumerico.swift, Compilacion.swift, Crear.swift, DemoApp.swift, DetalleNuevo.swift, Diseno.swift, EncargosBalanza.swift, FotoPerfil.swift, GrupoCompartido.swift, HerramientasHojas.swift, HistorialNuevo.swift, HuchaApartar.swift, HuchaCobros.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal arm64 Compiling\ PanelHerramientas.swift,\ PanelLateral.swift,\ PantallaAgenda.swift,\ PantallaAjustesManual.swift,\ PantallaAjustesTienda.swift,\ PantallaAvisos.swift,\ PantallaBloqueo.swift,\ PantallaCanal.swift,\ PantallaCarga.swift,\ PantallaCategoria.swift,\ PantallaClaves.swift,\ PantallaClientes.swift,\ PantallaCobros.swift,\ PantallaComoSeCalcula.swift,\ PantallaCuenta.swift,\ PantallaDetalleP1.swift,\ PantallaEntrar.swift,\ PantallaFaceID.swift,\ PantallaHistorial.swift,\ PantallaHucha.swift,\ PantallaHuchaNueva.swift,\ PantallaInformacionPersonal.swift,\ PantallaInicio.swift,\ PantallaManual.swift /Users/runner/work/app-demo/app-demo/Demo/PanelHerramientas.swift /Users/runner/work/app-demo/app-demo/Demo/PanelLateral.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAgenda.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesManual.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesTienda.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaAvisos.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaBloqueo.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCanal.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCarga.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaClaves.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaClientes.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCobros.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaComoSeCalcula.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaDetalleP1.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaEntrar.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaFaceID.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaHistorial.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaHucha.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaHuchaNueva.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaInformacionPersonal.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaInicio.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaManual.swift (in target 'Demo' from project 'Demo')
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift:135:24: warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+ 12 |     @State private var estado: Carga<Bool> = .cargando
+ 13 |     @State private var eligiendo: PhotosPickerItem?
+ 14 |     @State private var subiendo = false
+    |                        `- note: property declared here
+ 15 |     @State private var aviso: (texto: String, bien: Bool)?
+ 16 |     @State private var vetando = false
+    :
+133 |             PhotosPicker(selection: $eligiendo, matching: .videos) {
+134 |                 HStack {
+135 |                     if subiendo { ProgressView().controlSize(.small) }
+    |                        `- warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+136 |                     else { Image(systemName: "arrow.up.circle") }
+137 |                     Text(subiendo ? "Subiendo…" : "Subir un vídeo")
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift:137:26: warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+ 12 |     @State private var estado: Carga<Bool> = .cargando
+ 13 |     @State private var eligiendo: PhotosPickerItem?
+ 14 |     @State private var subiendo = false
+    |                        `- note: property declared here
+ 15 |     @State private var aviso: (texto: String, bien: Bool)?
+ 16 |     @State private var vetando = false
+    :
+135 |                     if subiendo { ProgressView().controlSize(.small) }
+136 |                     else { Image(systemName: "arrow.up.circle") }
+137 |                     Text(subiendo ? "Subiendo…" : "Subir un vídeo")
+    |                          `- warning: main actor-isolated property 'subiendo' can not be referenced from a nonisolated context
+138 |                 }
+139 |                 .frame(maxWidth: .infinity).padding(.vertical, 4)
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:120:28: warning: main actor-isolated property 'foto' can not be referenced from a nonisolated context
+ 13 |     @State private var aviso: String?
+ 14 |     @State private var eligiendoFoto: PhotosPickerItem?
+ 15 |     @State private var foto: UIImage?
+    |                        `- note: property declared here
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+    :
+118 |             PhotosPicker(selection: $eligiendoFoto, matching: .images) {
+119 |                 ZStack(alignment: .bottomTrailing) {
+120 |                     if let foto {
+    |                            `- warning: main actor-isolated property 'foto' can not be referenced from a nonisolated context
+121 |                         Image(uiImage: foto)
+122 |                             .resizable().scaledToFill()
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:123:43: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+121 |                         Image(uiImage: foto)
+122 |                             .resizable().scaledToFill()
+123 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                           `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+124 |                             .clipShape(.circle)
+125 |                     } else {
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:123:63: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+121 |                         Image(uiImage: foto)
+122 |                             .resizable().scaledToFill()
+123 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                                               `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+124 |                             .clipShape(.circle)
+125 |                     } else {
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:126:37: warning: main actor-isolated property 'nombre' can not be referenced from a nonisolated context
+ 10 |     @Environment(\.tema) private var tema
+ 11 | 
+ 12 |     @State private var nombre = ""
+    |                        `- note: property declared here
+ 13 |     @State private var aviso: String?
+ 14 |     @State private var eligiendoFoto: PhotosPickerItem?
+    :
+124 |                             .clipShape(.circle)
+125 |                     } else {
+126 |                         Text(String(nombre.prefix(1)).uppercased())
+    |                                     `- warning: main actor-isolated property 'nombre' can not be referenced from a nonisolated context
+127 |                             .font(.system(size: ladoAvatar * 0.4, weight: .medium,
+128 |                                           design: .rounded))
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:127:49: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+125 |                     } else {
+126 |                         Text(String(nombre.prefix(1)).uppercased())
+127 |                             .font(.system(size: ladoAvatar * 0.4, weight: .medium,
+    |                                                 `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+128 |                                           design: .rounded))
+129 |                             .foregroundStyle(.white)
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:130:43: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+128 |                                           design: .rounded))
+129 |                             .foregroundStyle(.white)
+130 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                           `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+131 |                             .background(LinearGradient(colors: [Diseno.azul, Diseno.morado],
+132 |                                                        startPoint: .topLeading,
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:130:63: warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+ 16 |     @State private var subiendoFoto = false
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    |                                                        `- note: property declared here
+ 19 | 
+ 20 |     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion")
+    :
+128 |                                           design: .rounded))
+129 |                             .foregroundStyle(.white)
+130 |                             .frame(width: ladoAvatar, height: ladoAvatar)
+    |                                                               `- warning: main actor-isolated property 'ladoAvatar' can not be referenced from a nonisolated context
+131 |                             .background(LinearGradient(colors: [Diseno.azul, Diseno.morado],
+132 |                                                        startPoint: .topLeading,
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:136:39: warning: main actor-isolated property 'subiendoFoto' can not be referenced from a nonisolated context
+ 14 |     @State private var eligiendoFoto: PhotosPickerItem?
+ 15 |     @State private var foto: UIImage?
+ 16 |     @State private var subiendoFoto = false
+    |                        `- note: property declared here
+ 17 | 
+ 18 |     @ScaledMetric(relativeTo: .largeTitle) private var ladoAvatar: CGFloat = 96
+    :
+134 |                                         in: .circle)
+135 |                     }
+136 |                     Image(systemName: subiendoFoto ? "arrow.up.circle.fill" : "camera.fill")
+    |                                       `- warning: main actor-isolated property 'subiendoFoto' can not be referenced from a nonisolated context
+137 |                         .font(.caption)
+138 |                         .foregroundStyle(tema.sobreRelleno)
+
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PanelHerramientas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PanelHerramientas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PanelLateral.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PanelLateral.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAgenda.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAgenda.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesManual.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAjustesManual.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAjustesTienda.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAjustesTienda.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaAvisos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaAvisos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaBloqueo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaBloqueo.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCanal.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCanal.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCarga.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCarga.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCategoria.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCategoria.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaClaves.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaClaves.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaClientes.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaClientes.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCobros.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCobros.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaComoSeCalcula.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaComoSeCalcula.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaCuenta.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaDetalleP1.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaDetalleP1.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaEntrar.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaEntrar.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaFaceID.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaFaceID.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaHistorial.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaHistorial.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaHucha.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaHucha.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaHuchaNueva.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaHuchaNueva.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaInformacionPersonal.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaInformacionPersonal.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaInicio.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaInicio.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaManual.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaManual.swift
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:138:42: warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+  8 |     @Environment(Sesion.self) private var sesion
+  9 |     @Environment(\.dismiss) private var cerrar
+ 10 |     @Environment(\.tema) private var tema
+    |                                      `- note: property declared here
+ 11 | 
+ 12 |     @State private var nombre = ""
+    :
+136 |                     Image(systemName: subiendoFoto ? "arrow.up.circle.fill" : "camera.fill")
+137 |                         .font(.caption)
+138 |                         .foregroundStyle(tema.sobreRelleno)
+    |                                          `- warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+139 |                         .frame(width: 28, height: 28)
+140 |                         .background(tema.relleno, in: .circle)
+
+/Users/runner/work/app-demo/app-demo/Demo/PantallaCuenta.swift:140:37: warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+  8 |     @Environment(Sesion.self) private var sesion
+  9 |     @Environment(\.dismiss) private var cerrar
+ 10 |     @Environment(\.tema) private var tema
+    |                                      `- note: property declared here
+ 11 | 
+ 12 |     @State private var nombre = ""
+    :
+138 |                         .foregroundStyle(tema.sobreRelleno)
+139 |                         .frame(width: 28, height: 28)
+140 |                         .background(tema.relleno, in: .circle)
+    |                                     `- warning: main actor-isolated property 'tema' can not be referenced from a nonisolated context
+141 |                         .overlay(Circle().strokeBorder(Color(.systemBackground), lineWidth: 2))
+142 |                 }
+SwiftDriverJobDiscovery normal arm64 Compiling HuchaMeses.swift, HuchaPiezas.swift, ImportarPlataforma1.swift, Impuestos.swift, ImpuestosBorrador.swift, ImpuestosComprobar.swift, ImpuestosContactos.swift, ImpuestosExcel.swift, ImpuestosGastos.swift, ImpuestosIngreso.swift, ImpuestosIngresosLista.swift, ImpuestosPiezas.swift, ImpuestosSello.swift, InicioPiezas.swift, Instantanea.swift, LectorCapturas.swift, LlegadaBeta.swift, Logo.swift, LogosIncrustados.swift, Maqueta.swift, MaquetaDatos.swift, MaquetaWidget.swift, MarcadorPiezas.swift, PanelBeta.swift (in target 'Demo' from project 'Demo')
+
+SwiftMergeGeneratedHeaders /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/Demo-Swift.h /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-Swift.h /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-Swift.h (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-Swift.h -arch x86_64 /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-Swift.h -o /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/Demo-Swift.h
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftmodule (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftmodule /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftdoc (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftdoc /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.abi.json (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.abi.json /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftsourceinfo (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftsourceinfo /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftCompile normal arm64 Compiling\ PantallaPedido.swift,\ PantallaPedidos.swift,\ PantallaPlataformas.swift,\ PantallaSala.swift,\ PantallaTransferencias.swift,\ PantallasCuenta.swift,\ PantallasMas.swift,\ PantallasPlataforma1.swift,\ PedidosBandeja.swift,\ PedidosMarcador.swift,\ PrevisionHoy.swift,\ Privacidad.swift,\ PuenteWidget.swift,\ SalaDatos.swift,\ SalaEstadio.swift,\ SalaPiezas.swift,\ Sesion.swift,\ TemasBeta.swift,\ TemasDatos.swift,\ TemasFondos.swift,\ TemasTexturas.swift,\ TemasVida.swift,\ TemasVidaDibujo.swift,\ VistasWidget.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaPedido.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaPedidos.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaPlataformas.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaSala.swift /Users/runner/work/app-demo/app-demo/Demo/PantallaTransferencias.swift /Users/runner/work/app-demo/app-demo/Demo/PantallasCuenta.swift /Users/runner/work/app-demo/app-demo/Demo/PantallasMas.swift /Users/runner/work/app-demo/app-demo/Demo/PantallasPlataforma1.swift /Users/runner/work/app-demo/app-demo/Demo/PedidosBandeja.swift /Users/runner/work/app-demo/app-demo/Demo/PedidosMarcador.swift /Users/runner/work/app-demo/app-demo/Demo/PrevisionHoy.swift /Users/runner/work/app-demo/app-demo/Demo/Privacidad.swift /Users/runner/work/app-demo/app-demo/Demo/PuenteWidget.swift /Users/runner/work/app-demo/app-demo/Demo/SalaDatos.swift /Users/runner/work/app-demo/app-demo/Demo/SalaEstadio.swift /Users/runner/work/app-demo/app-demo/Demo/SalaPiezas.swift /Users/runner/work/app-demo/app-demo/Demo/Sesion.swift /Users/runner/work/app-demo/app-demo/Demo/TemasBeta.swift /Users/runner/work/app-demo/app-demo/Demo/TemasDatos.swift /Users/runner/work/app-demo/app-demo/Demo/TemasFondos.swift /Users/runner/work/app-demo/app-demo/Demo/TemasTexturas.swift /Users/runner/work/app-demo/app-demo/Demo/TemasVida.swift /Users/runner/work/app-demo/app-demo/Demo/TemasVidaDibujo.swift /Users/runner/work/app-demo/app-demo/Demo/VistasWidget.swift (in target 'Demo' from project 'Demo')
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaPedido.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaPedido.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaPedidos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaPedidos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaPlataformas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaPlataformas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaSala.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaSala.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallaTransferencias.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallaTransferencias.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallasCuenta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallasCuenta.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallasMas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallasMas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PantallasPlataforma1.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PantallasPlataforma1.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PedidosBandeja.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PedidosBandeja.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PedidosMarcador.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PedidosMarcador.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PrevisionHoy.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PrevisionHoy.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Privacidad.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Privacidad.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/PuenteWidget.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile PuenteWidget.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/SalaDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile SalaDatos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/SalaEstadio.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile SalaEstadio.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/SalaPiezas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile SalaPiezas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/Sesion.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile Sesion.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/TemasBeta.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasBeta.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/TemasDatos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasDatos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/TemasFondos.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasFondos.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/TemasTexturas.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasTexturas.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/TemasVida.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasVida.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/TemasVidaDibujo.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile TemasVidaDibujo.swift
+
+SwiftCompile normal arm64 /Users/runner/work/app-demo/app-demo/Demo/VistasWidget.swift (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-SwiftPerFileCompile VistasWidget.swift
+
+/Users/runner/work/app-demo/app-demo/Demo/SalaPiezas.swift:168:72: warning: main actor-isolated property 'total' can not be referenced from a nonisolated context
+155 |     @State private var dibujado = false
+156 | 
+157 |     private var total: Int { max(d.tramos.last?.upperBound ?? d.noche.minutos, 1) }
+    |                 `- note: property declared here
+158 |     private var maxGente: Int { max(d.gente.map(\.personas).max() ?? 0, 1) }
+159 |     private var maxPropina: Int { max(d.propinas.map(\.tokens).max() ?? 1, 1) }
+    :
+166 |             ZStack(alignment: .topLeading) {
+167 |                 Canvas { ctx, size in
+168 |                     func x(_ m: Int) -> CGFloat { CGFloat(m) / CGFloat(total) * (size.width - 16) + 8 }
+    |                                                                        `- warning: main actor-isolated property 'total' can not be referenced from a nonisolated context
+169 |                     
+170 |                     if d.gente.count > 1 {
+SwiftDriverJobDiscovery normal x86_64 Compiling API.swift, AgendaDatos.swift, AgendaPiezas.swift, Aparato.swift, AvisosDelIPhone.swift, CalendarioHuchaNuevo.swift, CamposJoya.swift, CargaIncrustada.swift, Cerrojo.swift, CerrojoBeta.swift, CobrosMarcador.swift, CodigoNumerico.swift, Compilacion.swift, Crear.swift, DemoApp.swift, DetalleNuevo.swift, Diseno.swift, EncargosBalanza.swift, FotoPerfil.swift, GrupoCompartido.swift, HerramientasHojas.swift, HistorialNuevo.swift, HuchaApartar.swift, HuchaCobros.swift (in target 'Demo' from project 'Demo')
+
+SwiftDriver\ Compilation Demo normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-Swift-Compilation -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Demo -Onone @/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftFileList -DMAQUETA -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/app-demo/app-demo/dd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache -output-file-map /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/include -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo-Swift.h -working-directory /Users/runner/work/app-demo/app-demo -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo.debug.dylib normal x86_64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/EagerLinkingTBDs/Maqueta-iphonesimulator -L/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/EagerLinkingTBDs/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -filelist /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.LinkFileList -install_name @rpath/Demo.debug.dylib -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-ExecutorLinkFileList-normal-x86_64.txt (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    construct-stub-executor-link-file-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo.debug.dylib /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'Demo' from project 'Demo')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PanelHerramientas.swift, PanelLateral.swift, PantallaAgenda.swift, PantallaAjustesManual.swift, PantallaAjustesTienda.swift, PantallaAvisos.swift, PantallaBloqueo.swift, PantallaCanal.swift, PantallaCarga.swift, PantallaCategoria.swift, PantallaClaves.swift, PantallaClientes.swift, PantallaCobros.swift, PantallaComoSeCalcula.swift, PantallaCuenta.swift, PantallaDetalleP1.swift, PantallaEntrar.swift, PantallaFaceID.swift, PantallaHistorial.swift, PantallaHucha.swift, PantallaHuchaNueva.swift, PantallaInformacionPersonal.swift, PantallaInicio.swift, PantallaManual.swift (in target 'Demo' from project 'Demo')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PantallaPedido.swift, PantallaPedidos.swift, PantallaPlataformas.swift, PantallaSala.swift, PantallaTransferencias.swift, PantallasCuenta.swift, PantallasMas.swift, PantallasPlataforma1.swift, PedidosBandeja.swift, PedidosMarcador.swift, PrevisionHoy.swift, Privacidad.swift, PuenteWidget.swift, SalaDatos.swift, SalaEstadio.swift, SalaPiezas.swift, Sesion.swift, TemasBeta.swift, TemasDatos.swift, TemasFondos.swift, TemasTexturas.swift, TemasVida.swift, TemasVidaDibujo.swift, VistasWidget.swift (in target 'Demo' from project 'Demo')
+
+SwiftDriver\ Compilation Demo normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-Swift-Compilation -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Demo -Onone @/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftFileList -DMAQUETA -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/app-demo/app-demo/dd/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/app-demo/app-demo/dd/SDKStatCaches.noindex/iphonesimulator27.0-24A430-155dc1fa6e968f55248c4516efa38917.sdkstatcache -output-file-map /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/app-demo/app-demo/dd/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-generated-files.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-own-target-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-project-headers.hmap -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/include -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo-Swift.h -working-directory /Users/runner/work/app-demo/app-demo -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo.debug.dylib normal arm64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/EagerLinkingTBDs/Maqueta-iphonesimulator -L/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/EagerLinkingTBDs/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -filelist /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.LinkFileList -install_name @rpath/Demo.debug.dylib -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo.debug.dylib
+
+CreateUniversalBinary /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Demo.debug.dylib normal arm64\ x86_64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo.debug.dylib /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo.debug.dylib -output /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Demo.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-ExecutorLinkFileList-normal-arm64.txt (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    construct-stub-executor-link-file-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo.debug.dylib /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'Demo' from project 'Demo')
+
+Ld /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo normal x86_64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-ExecutorLinkFileList-normal-x86_64.txt /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo.debug.dylib -o /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo
+
+Ld /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo normal arm64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -F/Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo-ExecutorLinkFileList-normal-arm64.txt /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo.debug.dylib -o /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo
+
+CreateUniversalBinary /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Demo normal arm64\ x86_64 (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Binary/Demo /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Binary/Demo -output /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Demo
+
+CopySwiftLibs /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Demo.debug.dylib --scan-folder /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Frameworks --scan-folder /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/PlugIns --scan-folder /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/SystemExtensions --scan-folder /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Extensions --platform iphonesimulator --toolchain /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name Demo --sdk-root /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk --xcode-version 27A266a --platform-family iOS --deployment-target 26.0 --bundle-identifier com.example.ingresos --output /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app --target-triple arm64-apple-ios26.0-simulator --target-triple x86_64-apple-ios26.0-simulator --binary-file /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Demo --dependency-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo_dependency_info.dat --dependency-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo_dependency_info.dat --stringsdata-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftFileList --source-file-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftFileList --metadata-file-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/arm64/Demo.SwiftConstValuesFileList --swift-const-vals-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Objects-normal/x86_64/Demo.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-10 11:32:35.912 appintentsmetadataprocessor[16203:47469] Starting appintentsmetadataprocessor export
+2026-10-10 11:32:36.064 appintentsmetadataprocessor[16203:47469] Extracted no relevant App Intents symbols, skipping writing output
+
+AppIntentsSSUTraining (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Info.plist --temp-dir-path /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/ssu --bundle-id com.example.ingresos --product-path /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app --extracted-metadata-path /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Metadata.appintents --metadata-file-list /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/Demo.build/Maqueta-iphonesimulator/Demo.build/Demo.DependencyMetadataFileList --source-file /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app/Info.plist --archive-ssu-assets
+2026-10-10 11:32:36.122 appintentsnltrainingprocessor[16204:47476] Parsing options for appintentsnltrainingprocessor
+2026-10-10 11:32:36.123 appintentsnltrainingprocessor[16204:47476] Starting AppIntents SSU YAML Generation
+2026-10-10 11:32:36.129 appintentsnltrainingprocessor[16204:47476] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-RegisterExecutionPolicyException /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app
+
+Validate /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    builtin-validationUtility /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app (in target 'Demo' from project 'Demo')
+    cd /Users/runner/work/app-demo/app-demo
+    /usr/bin/touch -c /Users/runner/work/app-demo/app-demo/dd/Build/Products/Maqueta-iphonesimulator/Demo.app
+
+PruneExplicitPrecompiledModules /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/runner/work/app-demo/app-demo/dd/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/runner/work/app-demo/app-demo/dd/SDKExplicitPrecompiledModules
+
+** BUILD SUCCEEDED **
+
