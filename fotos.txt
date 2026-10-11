@@ -1,0 +1,11 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ capsula-hecho-emitir-rojo (13 s)
+  ✓ capsula-hecho-emitir (13 s)
+  ✓ capsula-hecho (14 s)
+  ✓ capsula-trabajar (32 s)
+  ✓ capsula-descansar (12 s)
+  ✓ capsula-pista (14 s)
+  ✓ capsula-letra-maxima-hecho (13 s)
+  ✓ capsula-letra-maxima-rojo (14 s)
+  ✓ capsula-hecho-emitir-rojo-oscuro (12 s)
+Capturas: 9
