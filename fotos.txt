@@ -1,0 +1,15 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ guardadas-descansar (17 s)
+  ✓ guardadas-trabajar (18 s)
+  ✓ guardadas-riesgo (17 s)
+  ✓ guardadas-hecho (16 s)
+  ✓ guardadas-hecho-emitir (17 s)
+  ✓ guardadas-hoja-descansar (42 s)
+  ✓ guardadas-hoja-trabajar (50 s)
+  ✓ guardadas-hoja-hecho (20 s)
+  ✓ guardadas-hoja-descansar-entera (16 s)
+  ✓ guardadas-hoja-hecho-entera (14 s)
+  ✓ guardadas-hoja-riesgo-entera (27 s)
+  ✓ guardadas-trabajar-oscuro (13 s)
+  ✓ guardadas-widget-oscuro (12 s)
+Capturas: 13
