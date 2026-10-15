@@ -1,0 +1,16 @@
+iPhone 17 Pro Max · com.apple.CoreSimulator.SimRuntime.iOS-27-0
+  ✓ gastos-claro (14 s)
+  ✓ gastos-abajo-claro (13 s)
+  ✓ gastos-ficha-claro (14 s)
+  ✓ gastos-oscuro (13 s)
+  ✓ gastos-abajo-oscuro (13 s)
+  ✓ gastos-ficha-oscuro (15 s)
+  ✓ gastos-medio-claro (13 s)
+  ✓ gastos-nuevo-claro (14 s)
+  ✓ gastos-agenda-claro (15 s)
+  ✓ gastos-cuenta-claro (16 s)
+  ✓ lluvia-agenda-tras-inicio-oscuro (18 s)
+  ✓ lluvia-inicio-oscuro (223 s)
+  ✓ gastos-letra-maxima (22 s)
+  ✓ gastos-ficha-letra-maxima (25 s)
+Capturas: 14
