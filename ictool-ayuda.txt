@@ -1,0 +1,13 @@
+ictool processes Icon Composer documents
+
+Usage:
+
+    ictool input-document --export-image --output-file <output-file-path> --platform <platform> --rendition <rendition> --width <width> --height <height> --scale <scale> [--tint-color <tint-color>] [--tint-strength <tint-strength>] [--design-generation <26 or 27>]
+
+    ictool --version
+
+Example Invocations:
+
+    ictool input-document.icon --export-image --output-file output.png --platform iOS --rendition Default --width 1024 --height 1024 --scale 2
+    ictool input-document.icon --export-image --output-file output.png --platform iOS --rendition TintedDark --width 1024 --height 1024 --scale 2 --tint-color 0.25 --tint-strength 0.75
+    ictool input-document.icon --export-image --output-file output.png --platform iOS --rendition Default --width 1024 --height 1024 --scale 2 --design-generation 26

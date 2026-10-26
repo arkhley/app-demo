@@ -1,0 +1,44 @@
+/Applications/Xcode_27.1.app/Contents/Developer/../Applications/Icon Composer.app/Contents/Executables/ictool
+{
+  "bundle-version" : "129",
+  "short-bundle-version" : "27.1"
+}
+Xcode 27.1
+Build version 27A9275
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+{
+
+}
+r/capturas:
+total 11128
+drwxr-xr-x  8 runner  staff      256 Oct 26 17:05 .
+drwxr-xr-x  7 runner  staff      224 Oct 26 17:05 ..
+-rw-r--r--  1 runner  staff   507508 Oct 26 17:05 icono-ClearDark.png
+-rw-r--r--  1 runner  staff   431257 Oct 26 17:05 icono-ClearLight.png
+-rw-r--r--  1 runner  staff  2046051 Oct 26 17:05 icono-Dark.png
+-rw-r--r--  1 runner  staff  1413481 Oct 26 17:05 icono-Default.png
+-rw-r--r--  1 runner  staff   551648 Oct 26 17:05 icono-TintedDark.png
+-rw-r--r--  1 runner  staff   734458 Oct 26 17:05 icono-TintedLight.png
+
+r/car:
+total 11680
+drwxr-xr-x  6 runner  staff      192 Oct 26 17:05 .
+drwxr-xr-x  7 runner  staff      224 Oct 26 17:05 ..
+-rw-r--r--  1 runner  staff    13540 Oct 26 17:05 AppIcon60x60@2x.png
+-rw-r--r--  1 runner  staff    21289 Oct 26 17:05 AppIcon76x76@2x~ipad.png
+-rw-r--r--  1 runner  staff  5934104 Oct 26 17:05 Assets.car
+-rw-r--r--  1 runner  staff      654 Oct 26 17:05 partial.plist
