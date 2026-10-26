@@ -1,0 +1,44 @@
+name: Icono
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  icono:
+    runs-on: xcode-27
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - name: Pintar y compilar
+        run: |
+          mkdir -p r/capturas r/car
+          DEV=$(xcode-select -p)
+          IC="$DEV/../Applications/Icon Composer.app/Contents/Executables/ictool"
+          [ -x "$IC" ] || IC=$(find /Applications -path "*Icon Composer.app/Contents/Executables/ictool" -type f 2>/dev/null | head -1)
+          { echo "$IC"; "$IC" --version; xcodebuild -version; } > r/ictool.txt 2>&1 || true
+          "$IC" --help > r/ictool-ayuda.txt 2>&1 || true
+          for R in Default Dark ClearLight ClearDark TintedLight TintedDark; do
+            "$IC" Icono/AppIcon.icon --export-image --output-file "r/capturas/icono-$R.png" \
+              --platform iOS --rendition "$R" --width 1024 --height 1024 --scale 1 >> r/ictool.txt 2>&1 \
+              || echo "falla $R" >> r/ictool.txt
+          done
+          xcrun actool Icono/AppIcon.icon --compile r/car --platform iphoneos \
+            --minimum-deployment-target 18.0 --app-icon AppIcon --target-device iphone \
+            --output-partial-info-plist r/car/partial.plist > r/actool.txt 2>&1 || echo "actool falla" >> r/actool.txt
+          ls -la r/capturas r/car >> r/ictool.txt 2>&1
+          ls r/capturas/*.png > /dev/null
+      - name: Resultados
+        if: always()
+        run: |
+          cd r
+          git init -q -b resultados-icono
+          git config user.name "demo"
+          git config user.email "demo@example.com"
+          git add -A
+          git commit -qm "resultados de ${GITHUB_SHA} (${{ job.status }})"
+          for i in 1 2 3 4 5; do
+            git push -qf "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" resultados-icono && exit 0
+            sleep $((i * 15))
+          done
+          exit 1
